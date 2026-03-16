@@ -7,6 +7,7 @@ export default function Home() {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -74,7 +75,7 @@ export default function Home() {
           <h1 className="name">Muhammad Zamin</h1>
           <h3 className="role">Flutter Developer</h3>
           <p className="summary">
-            Flutter Developer with 1 year+ of hands-on experience in building high-quality, responsive
+            Flutter Developer with 1 year + of hands-on experience in building high-quality, responsive
             mobile applications. Specialized in Dart, UI/UX design, and complex state management.
           </p>
           <div className="hero-btns">
